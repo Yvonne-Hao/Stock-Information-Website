@@ -1,0 +1,51 @@
+<style type="text/css">
+
+.justify {font-align: justify;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.center {text-align:center;}
+.decoration {text-decoration: underline;}
+
+body	{ font-family: sans-serif; font-size: 100%; }
+			
+.header	{ 
+		  text-align: center;
+	      font-size: 15px;
+          clear:both;
+          padding: 1.5%;
+}
+
+
+.nav	{ text-align: center; 
+
+}
+
+.left	{ width:65%;
+		  float:left;
+		  padding: 1.5%;
+		  margin-left: 5%;
+
+}
+	
+
+.page	{ 
+	      margin: 0 auto;
+	}
+
+
+								
+.right	{
+		width: 20%;
+		margin-left: 4%;
+		float: left;
+}
+
+
+.footer {
+  text-align: center;
+  clear:both;
+
+}
+
+table id=''
+

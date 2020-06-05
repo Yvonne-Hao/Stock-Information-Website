@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta name=“viewport” content=“width=device-width, initial-scale=1” />
+   <meta charset="utf-8">
+   <title>Yue! Finance</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  	<div class="page">
+  		<div class="header">
+  			<img src="logo3.png" height="70" weight="120" alt="logo">
+  		</div>
+
+		<div class="left">
+			<h1>About Us</h1>
+			<hr>
+			<h3>Yue! Finance was founded in 2020 by Yue Hao as the president and CEO of the company. Our mission is to provide the stock information of publicly traded companies by entering a company's stock ticker symbol.We gives the information below.</h3>
+			<ul>
+     			<li>Stock Price Information: rencent stock price, high price and low price in last 365 days.</li>
+     			<li>Company Summary Information: a short paragraph about what the company does,where it is located, and annual revenues</li>
+     			<li>Detailed Company Information: More detailed company information (e.g., when it was founded, number of employees, number of office locations, etc.), plus listing of top three officers with brief biographical information and images of these officers</li>
+			</ul>
+			<br />
+			<br/>
+			<br>
+			<br>
+			<h1>About Our CEO</h1>
+			<hr>
+			<h3>Yue Hao was born in 1996 in Beijing. After she graduated from Johns Hopkins University with a MS in Information System and University of California, Irvine with a BS in Economics, she started to create her own business to chase her dream. She's talent in both Business field and programing field was showned since high school. She was born in China and moved to the US since she was 15 years old. </h3>
+			<br />
+			<br/>
+			<br>
+			<br>
+			<h1>Company Search</h1>
+			<hr>
+			
+		    <form action="http://localhost:8080/infosearch.php" method="get" >
+		      <h4>Please type in the Company's stock ticker symbol (AMZN, APPL, TSLA) &nbsp;&nbsp;<input type="text" name="company" placeholder="Stock ticker symbol"></h4>
+		      
+		      <h4>Selection the type of information you want (required)</h4>
+		      <input type="checkbox" id=“1” name="Info1" value="StockPrice" />Stock Price Information
+		      &nbsp;&nbsp;
+		      <input type="checkbox" id="2" name="Info2" value="CompanySummary" />Company Summary Information
+		      &nbsp;&nbsp;
+		      <input type="checkbox" id="3" name="Info3" value="Detailed" />Detailed Company Information
+		      <br /> <br />
+		      <input type="submit" value="Submit" />
+		    </form>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+			<h1>Sign-Up for monthly newsletter</h1><hr>
+			<h4>Please type in your full name and email address to receive our company's monthly newslatter</h4>
+
+	     <form action="http://localhost:8080/signup.php" method="post" target="_blank" title="Sign-Up successful!">
+	          <p>
+	          Full Name: <input type="text" name="fullName" />
+	          &nbsp;&nbsp;&nbsp;
+	          Email: <input type="text" name="email" />
+	          &nbsp;&nbsp;&nbsp;
+	          <input type="submit" value="Submit"  />
+	     </form>
+
+
+
+			
+	   	 		<br/>	<br/>	<br/>	<br/>
+		</div>
+		<div class="right">
+			<br><a><img src="CEO.jpeg" height="250" width="248" alt="CEO"></a></h4>
+
+		</div>
+
+		<div class="footer">
+			<a>Yue! Finance &copy; 2020 Yue Hao</a>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
