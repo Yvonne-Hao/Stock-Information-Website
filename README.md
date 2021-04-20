@@ -1,1 +1,1 @@
-# coding
+# Stock Information Website
